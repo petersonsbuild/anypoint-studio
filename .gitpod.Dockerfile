@@ -2,6 +2,6 @@
 # which has much of what you need to start
 FROM gitpod/workspace-full-vnc
 
-RUN apt-get update -y && apt-get install ubuntu-gnome-desktop -y
+RUN sudo apt-get update -y && sudo apt-get install ubuntu-gnome-desktop -y
 
 USER gitpod
